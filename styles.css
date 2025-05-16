@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.dark {
+    background-color: #1f2937;
+}
+.grey {
+    background-color: #e5e7eb;
+}
+.section {
+    width: 100%;
+    padding: 20px 0;
+}
+.container {
+    padding: 0 10%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+.header-link, .hero-text {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    transition: color 0.3s ease;
+}
+.header-link:hover{
+    color: #9c9da1;
+}
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+button {
+    background-color: #2882f6;
+    color: #f9faf8;
+    font-weight: 500;
+    border-radius: 8px;
+    border-color: #2882f6;
+}
+.cta-btn {
+    border-color: #f9faf8;
+}
+.info-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.info-card {
+    font-size: 18px;
+    color: #1f2937;
+}
+.info-img {
+    border-width: 4px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #2882f6;
+}
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+.quote-author {
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: bold;
+}
+.cta {
+    background-color: #2882f6;
+    color: #f9faf8;
+    font-size: 18px;
+}
+.cta-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
